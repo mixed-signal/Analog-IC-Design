@@ -1,12 +1,13 @@
 # Analog-IC-Design
 Circuits that I write about in my free time.
 
-## Design of an Operational Amplifier to detect milli-volt order signals.
-Plots without gain stage. 
-![Diagram](assets/plot_without_gain_stage.png)
+## Design of a Comparator to detect milli-volt order differential signal.
+The design files are in the Xschem started folder.
 
-The circuit looks something like this
+Schematic without gain stage.
 ![Diagram](assets/opamp.png)
 
+Plot of output, inputs and enable as well as gaussian sweep over VCC.
+![Diagram](assets/plot_without_gain_stage.png)
 
-I used Xschem for the schematic entry and NGspice for simulations. [Youtube video](https://youtu.be/q3ZcpSkVVuc?si=RzX4Z9Q1VjEWSuFB) by efabless demysitifying Xschem. 
+I used Xschem for the schematic entry and NGspice for simulations. [Youtube video](https://youtu.be/q3ZcpSkVVuc?si=RzX4Z9Q1VjEWSuFB) for reference.
