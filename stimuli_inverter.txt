@@ -1,0 +1,20 @@
+.option method = gear
+.option wnflag = 1
+.param VCCGAUSS = agauss(1.8,0.05,1)
+.param VCC = VCCGAUSS
+
+.include stimuli_inverter.cir
+.control
+    option seed=9
+    let run=0
+    dowhile run le 10
+        save all 
+        tran 1n 400n uic
+        remzerovec
+        write inverter.raw
+        set appendwrite
+        reset
+        let run=run+1
+    end 
+
+.endc 

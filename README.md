@@ -1,13 +1,2 @@
 # Analog-IC-Design
-Circuits that I write about in my free time.
-
-## Design of a Comparator to detect milli-volt order differential signal.
-The design files are in the Xschem started folder.
-
-Schematic without gain stage.
-![Diagram](assets/opamp.png)
-
-Plot of output, inputs and enable as well as gaussian sweep over VCC.
-![Diagram](assets/plot_without_gain_stage.png)
-
-I used Xschem for the schematic entry and NGspice for simulations. [Youtube video](https://youtu.be/q3ZcpSkVVuc?si=RzX4Z9Q1VjEWSuFB) for reference.
+Circuits that I write about in my free time. It has been a while since I did analog design, this repository is more of me trying to get back into analog design rather than unique circuit topologies that I dream to create one day.
